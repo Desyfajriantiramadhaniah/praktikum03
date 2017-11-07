@@ -17,4 +17,10 @@ int main () {
 		cout << abs (z)<< endl;
 		cout << "hasil positif";
 	}
-}
+	
+	else if (y > z){
+		z = x - y;
+		cout << abs (z)<< endl;
+		cout << "hasil positif";
+	}
+

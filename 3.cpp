@@ -10,3 +10,5 @@ int main () {
 	cin >> gp;
 	cout << "Masukkan jam kerja    : ";
 	cin >> jk;
+	lembur= jk - 40;
+	gt = (lembur*1.5+40)+gp;
